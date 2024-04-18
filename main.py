@@ -23,4 +23,7 @@ path_button = Button(root,text='Select')
 canvas.create_window(200, 150, window=path_label)
 canvas.create_window(200, 170, window=path_button)
 
+#download button
+download_button = Button(root,text='Download')
+canvas.create_window(200, 250, window=path_button)
 mainloop()
